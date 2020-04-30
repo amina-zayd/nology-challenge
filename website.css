@@ -1,0 +1,336 @@
+body, ul,li,h1,h2, a{
+  margin: 0;
+  padding: 0;
+
+  }
+
+body{
+background-image: url('https://imgur.com/7OYP8mC.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+
+}
+
+
+
+
+header{
+background-color: whitesmoke;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+}
+
+header nav{
+  background-color: (0, 0, 0, 0.7);
+  box-sizing: border-box;
+  padding: 0px;
+  float: right;
+
+}
+
+nav ul{
+  white-space: nowrap;
+max-width: 1200px;
+}
+
+
+header nav li{
+  display: inline-block;
+  font-size: 15px;
+  margin: 19px;
+}
+
+li a{
+  text-decoration: none;
+  color: black;
+}
+
+.About-me{
+  color: pink;
+  font-weight: bolder;
+
+}
+
+header span{
+  float: left;
+  margin: 20px auto;
+  font-size: 30px;
+  color: #d9a7c7;
+}
+
+
+.top{
+  width: 100%;
+padding: 30px;
+text-align: center;
+font-size: 50px ;
+
+}
+
+.top .welcome-message{
+margin: 60px;
+  color:black;
+  font-family: 'Aclonica', sans-serif;
+}
+
+
+main{
+  position: relative;
+margin: 30px;
+padding: 40px;
+width: 100%;
+box-sizing: border-box;
+color: black;
+text-align: center;
+background-image: url('https://imgur.com/o2rjMHU.jpg');
+background-position: center;
+background-size: cover;
+
+
+}
+
+
+article{
+border: solid white 5px;
+margin: 20px auto ;
+width: 500px
+}
+
+article h2{
+  font-size: 40px;
+  margin: 10px auto;
+
+}
+
+
+article p{
+margin: 20px auto;
+line-height: 2em;
+width: 400px;
+font-weight: bolder;
+}
+
+button{
+  margin:40px 100px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 90px;
+height: 30px;
+border-radius: 20px;
+}
+
+button:hover{
+color: black;
+background-color: red;
+}
+
+ .email {
+ background-color:none;
+ padding: 30px;
+ margin: 80px auto;
+width: 50%;
+
+}
+
+.email {
+border: solid black 10px;
+  text-align: center;
+  padding: 50px;
+  color: black;
+  margin-bottom: 60px;
+}
+
+
+.email h2{
+  text-align: center;
+  font-size: 50px;
+}
+
+.email p { 
+text-align: center;
+margin: 40px;
+color: black;
+font-size: 30px;
+}
+
+form input{
+  margin: 10px auto;
+  padding: 0;
+  font-size: 23px;
+  text-align: center;
+}
+
+
+
+footer{
+background-color: lightpink;
+padding: 90px;
+max-width: 100%;
+text-align: center;
+
+}
+footer p{
+  font-size: 30px;
+
+}
+
+footer .copyright{
+  font-size: 10px;
+}
+
+.icon-bar a {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  color:black;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color:white;
+}
+
+
+
+
+
+            /*Media Query*/
+
+@media screen and (max-width: 1200px ){
+  body{
+      background-image: none;
+      width: 100%;
+      
+      }
+
+  header{
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+  
+  header nav{
+  float: left;
+  
+  }
+  
+  nav ul{
+  width: 10%;
+  }
+  
+  header nav li{
+    display: inline-block;
+    font-size: 15px;
+ margin: 5px;
+  }
+  li a{
+    text-decoration: none;
+    color: black;
+  }
+
+  header span{
+   display: none;
+  }
+
+  .top{
+width: 100%;
+padding: 0;
+ 
+  }
+  
+  .top .welcome-message{
+    left: 25%;
+    top: 20px;
+    padding: 10px;
+    font-size: 19px;
+    text-align: center;
+
+  }
+  
+
+span{
+  font-size: 30px;
+}
+
+
+main{
+  margin: 0 auto;
+  padding:40px;
+ width: 100%;
+ color: black;
+
+ }
+
+ article{
+  width: 300px
+  }
+
+
+ article h2{
+   font-size: 20px;
+   margin: 10px auto;
+   text-align: center;
+   padding: 10px;
+ }
+ 
+ 
+ article p{
+ margin:0 auto;
+ line-height: 1.1em;
+ width: 250px;
+ 
+ }
+ button{
+  margin: 30px;
+}
+
+
+ .email {
+  padding:0 ;
+  color: black;
+  width: 110%;
+
+}
+
+
+.email h2{
+  text-align: center;
+  font-size: 30px;
+}
+
+.email p { 
+margin: 10px;
+font-size: 20px;
+}
+
+form input{
+  margin: 10px auto;
+  font-size: 15px;
+ 
+}
+
+
+footer{
+  background-color: lightpink;
+  padding: 40px;
+  width: 90%;
+  text-align: center;
+  
+  }
+  footer p{
+    font-size: 20px;
+  }
+  
+ 
+}
